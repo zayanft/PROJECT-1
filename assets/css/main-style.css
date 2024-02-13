@@ -1780,12 +1780,12 @@ body {
   .sub-header {
     display: none;
   }
-  /* .header-area .main-nav .logo img {
+  .header-area .main-nav .logo img {
     line-height: 100px;
   }
   .background-header .main-nav .logo img {
     line-height: 80px;
-  } */
+  }
   .header-area .main-nav .nav li a {
     padding-left: 3px;
     padding-right: 3px;
