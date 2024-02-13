@@ -432,7 +432,7 @@ Header Style
 }
 
 .header-area .main-nav .logo img {
-  width: 26vh;
+  width: 28vh;
   /* padding-bottom: 30px !important; */
 }
 
@@ -674,7 +674,7 @@ Header Style
   .header-area .main-nav .logo {
     position: absolute;
     left: 30px;
-    top: 0px;
+    top: -15px;
   }
   .background-header .main-nav .logo {
     top: 0px;
