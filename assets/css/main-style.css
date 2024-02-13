@@ -1,4 +1,4 @@
-
+/* 
 body {
   --sb-track-color: #ffffff;
   --sb-thumb-color: #fcb900;
@@ -25,7 +25,7 @@ body::-webkit-scrollbar-thumb {
     scrollbar-color: var(--sb-thumb-color)
                      var(--sb-track-color);
   }
-}
+} */
 
 /* ---------------------------------------------
 Table of contents
