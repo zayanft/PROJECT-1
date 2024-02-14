@@ -673,7 +673,7 @@ Header Style
   }
   .header-area .main-nav .logo {
     position: absolute !important;
-    left: 30px !important;
+/*     left: 30px !important; */
     top: -15px !important;
   }
   .background-header .main-nav .logo {
