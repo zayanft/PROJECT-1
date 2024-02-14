@@ -1742,9 +1742,6 @@ body {
   .properties ul.properties-filter li {
     margin: 5px;
   }
-  .header-area .main-nav .nav li:last-child {
-    display: none;
-  }
   .best-deal .tabs-content ul.nav-tabs .sp-nav{
     margin-top: 10px;
   }
