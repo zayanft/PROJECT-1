@@ -2092,12 +2092,12 @@ section.our-courses {
       bottom: 5px;
     }
     .blog-img-overlay:hover .service-desc{
-    bottom: 4%;
+    bottom: 0%;
     /* top: 1%; */
     opacity: 1;
     }
     .service-desc p{
-    font-size: 11px;
+    font-size: 10px;
     font-weight: 400;
     line-height: 20px;
     color: #fff; 
