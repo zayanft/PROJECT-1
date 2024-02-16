@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-bold-rounded/css/uicons-bold-rounded.css'>
     <link rel="shortcut icon" href="./assets/images/Al_Zayed_faveicon-removebg-preview.png">
 
 
@@ -25,6 +25,13 @@
     <link rel="stylesheet" href="./assets/css/animate.css">
     <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
 
+    <!-- Additional Files of new Caroseal -->
+
+    <link rel="stylesheet" href="./assets/add-css/slick.css" />
+    <link rel="stylesheet" href="./assets/add-css/slider.css" />
+    <link rel="stylesheet" href="./assets/add-css/main.css" />
+
+
   </head>
   <style>
    .info-table h6{
@@ -39,7 +46,7 @@
 
     @media only screen and (max-width:480px) {
     .contact-content #map {
-      width: 300px !important; 
+      width: 460px !important; 
       height:400px !important ;
     }
     .contact-content #map iframe{
@@ -55,9 +62,10 @@
       width: 50%;
       margin-bottom: 0px;
     }
-
-
-
+    
+    /* .our-courses .item .down-content h4 {
+      margin-bottom: 50px !important;
+} */
 
 
   }
@@ -100,10 +108,10 @@
         </div>
         <div class="col-lg-4 col-md-4">
           <ul class="social-links">
-            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-            <li><a href="#" target=""><i class="fab fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=61555658927706"><i class="fab fa-facebook"></i></a></li>
+            <!-- <li><a href="#"><i class="fab fa-twitter"></i></a></li> -->
+            <li><a href="https://wa.me/+971585540051?text=Hello%2C%20how%20are%20you%3F"><i class="fab fa-whatsapp"></i></a></li>
+            <li><a href="https://www.instagram.com/alzayedrentals?igsh=bjA1Z2U4NXg5Mjhy"><i class="fab fa-instagram"></i></a></li>
           </ul>
         </div>
       </div>
@@ -139,142 +147,262 @@
     </div>
   </header>
   <!-- ***** Header Area End ***** -->
+  <!-- New Add  Carosel -->
 
-  <!-- <div class="main-banner">
-    <div class="owl-carousel owl-banner">
-      <div class="item item-1">
-        <div class="header-text">
-          <span class="category">AL <em>Zayed</em></span>
-          <h2>Building<br> Dreams, One Tool at a Time</h2>
-        </div>
-      </div>
-      <div class="item item-2">
-        <div class="header-text">
-          <span class="category">AL <em>Zayed</em></span>
-          <h2>Reliable<br> Tools for Your Success</h2>
-        </div>
-      </div>
-      <div class="item item-3">
-        <div class="header-text">
-          <span class="category">AL <em>Zayed</em></span>
-          <h2>Explore<br> Our Machinery Marvels</h2>
-        </div>
-      </div>
-
-
-    </div>
-  </div> -->
-  <!-- Bootstrap Carosel -->
-  <div id="carouselExampleAutoplaying" class="main-banner carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active item item-1">
-        <div class="header-text">
-            <h2>Building<br> Dreams, One Tool at a Time</h2>
-          </div>
-      </div>
-      <div class="carousel-item item item-2">
-        <div class="header-text">
-            <h2>Building<br> Dreams, One Tool at a Time</h2>
-          </div>
-      </div>
-      <div class="carousel-item item item-3">
-        <div class="header-text">
-            <h2>Building<br> Dreams, One Tool at a Time</h2>
-          </div>
-      </div>
-
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-
-  <!-- Bootstrap Carosel End-->
-
-  <div class="featured section">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="left-image">
-            <img src="./assets/images/construction-site.jpg" alt="">
-            <a href="./service/"><img src="./assets/images/customer-service.png" alt="" style="max-width: 60px; padding: 0px;"></a>
-          </div>
-        </div>
-        <div class="col-lg-5">
-          <div class="section-heading">
-            <!-- <h6 >| Featured</h6> -->
-            <h2 class="text-dark">Welcome to <span class="intro">Al Zayed</span> Rentals</h2>
-            <div class="why-us-title-border"></div>
-          </div>
-          <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  Why Choose Us?
-                </button>
-              </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  Whether you're embarking on a large-scale construction project or need specialized equipment for a specific task, Al Zayed is here to support you. Let's build a successful future together – choose <span class="text-warning">Al Zayed Rentals</span> for all your construction equipment rental needs.
+  <header class="header"></header>
+  <div id="main-slider" class="dl-slider">
+    <div class="single-slide">
+      <div
+        class="bg-img kenburns-top-right"
+        style="background-image: url(./assets/images/civil-engineer.jpg)"
+      ></div>
+      <div class="overlay"></div>
+      <div class="slider-content-wrap d-flex align-items-center text-left">
+        <div class="container">
+          <div class="slider-content">
+            <div class="dl-caption medium">
+              <div class="inner-layer">
+                <div data-animation="fade-in-right" data-delay="1s">
+                  Residencial
                 </div>
               </div>
             </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  Flexibility
-                </button>
-              </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  customized rental terms that meet the demands of your project and provide the appropriate equipment for the appropriate amount of time without needless restrictions.                </div>
+            <div class="dl-caption big">
+              <div class="inner-layer">
+                <div data-animation="fade-in-left" data-delay="2s">
+                  BUILDING
+                  DREAMS,
+                </div>
               </div>
             </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Expert Support
-                </button>
-              </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  Our experienced team is dedicated to providing personalized service, technical expertise, and guidance to enhance your construction operations.                </div>
+            <div class="dl-caption big">
+              <div class="inner-layer">
+                <div data-animation="fade-in-left" data-delay="2.5s">
+                  ONE TOOL AT A TIME.
+                </div>
+              </div>
+            </div>
+            <div class="dl-caption small">
+              <div class="inner-layer">
+                <div data-animation="fade-in-left" data-delay="3s">
+                  We have provided complete remodeling and construction
+                  solutions for <br />residential and commercial properties in
+                  cities.
+                </div>
+              </div>
+            </div>
+            <div class="dl-btn-group">
+              <div class="inner-layer">
+                <a
+                  href="./equipment"
+                  class="dl-btn"
+                  data-animation="fade-in-left"
+                  data-delay="3.5s"
+                  >View Equipments <i class="arrow_right"></i
+                ></a>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-lg-3">
-          <div class="info-table">
-            <ul>
-              <li>
-                <img src="./assets/images/shield-halved-solid.svg" class="sosi" style="max-width: 52px;">
-                <h6>Supreme Equipment Selection</h6>
-              </li>
-              <li>
-                <img src="./assets/images/screwdriver-wrench-solid.svg" alt="" style="max-width: 52px;">
-                <h6>Technical Expertise at Your Fingertips</h6>
-              </li>
-              <li>
-                <img src="./assets/images/truck-solid.svg" alt="" style="max-width: 52px;">
-                <h6>Timely Delivery, Every Time</h6>
-              </li>
-              <li>
-                <img src="./assets/images/bolt-solid.svg" alt="" style="max-width: 52px;">
-                <h6>Beyond Tools – Committed to Your Success</h6>
-              </li>
-            </ul>
+      </div>
+    </div>
+    <div class="single-slide">
+      <div
+        class="bg-img kenburns-top-right"
+        style="background-image: url(./assets/images/jcb.jpg)"
+      ></div>
+      <div class="overlay"></div>
+      <div class="slider-content-wrap d-flex align-items-center text-center">
+        <div class="container">
+          <div class="slider-content">
+            <div class="dl-caption medium">
+              <div class="inner-layer">
+                <div data-animation="fade-in-top" data-delay="1s">
+                  Residencial
+                </div>
+              </div>
+            </div>
+            <div class="dl-caption big">
+              <div class="inner-layer">
+                <div data-animation="fade-in-bottom" data-delay="2s">
+                  Reliable Solutions,
+                </div>
+              </div>
+            </div>
+            <div class="dl-caption big">
+              <div class="inner-layer">
+                <div data-animation="fade-in-bottom" data-delay="2.5s">
+                  Every Time.
+                </div>
+              </div>
+            </div>
+            <div class="dl-caption small">
+              <div class="inner-layer">
+                <div data-animation="fade-in-bottom" data-delay="3s">
+                  We have provided complete remodeling and construction
+                  solutions for <br />residential and commercial properties in
+                  cities.
+                </div>
+              </div>
+            </div>
+            <div class="dl-btn-group">
+              <div class="inner-layer">
+                <a
+                  href="./equipment"
+                  class="dl-btn"
+                  data-animation="fade-in-bottom"
+                  data-delay="3.5s"
+                  >View Equipments <i class="arrow_right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="single-slide">
+      <div
+        class="bg-img kenburns-top-right"
+        style="background-image: url(./assets/images/site-excavator.jpg)"
+      ></div>
+      <div class="overlay"></div>
+      <div class="slider-content-wrap d-flex align-items-center text-right">
+        <div class="container">
+          <div class="slider-content">
+            <div class="dl-caption medium">
+              <div class="inner-layer">
+                <div data-animation="fade-in-left" data-delay="1s">
+                  Residencial
+                </div>
+              </div>
+            </div>
+            <div class="dl-caption big">
+              <div class="inner-layer">
+                <div data-animation="fade-in-right" data-delay="2s">
+                  Empowering Your Construction Journey,
+                </div>
+              </div>
+            </div>
+            <div class="dl-caption big">
+              <div class="inner-layer">
+                <div data-animation="fade-in-right" data-delay="2.5s">
+                  Partner with Us for Smooth Project Flow
+                </div>
+              </div>
+            </div>
+            <div class="dl-caption small">
+              <div class="inner-layer">
+                <div data-animation="fade-in-right" data-delay="3s">
+                  We have provided complete remodeling and construction
+                  solutions for <br />residential and commercial properties in
+                  cities.
+                </div>
+              </div>
+            </div>
+            <div class="dl-btn-group">
+              <div class="inner-layer">
+                <a
+                  href="./equipment"
+                  class="dl-btn"
+                  data-animation="fade-in-right"
+                  data-delay="3.5s"
+                  >View Equipments <i class="arrow_right"></i
+                ></a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+  <!-- New Add Carosel End-->
 
-  <div class="video section">
+<!-- New Add Section -->
+  <section class="service-section section-2 bg-grey padding">
+    <div class="dots"></div>
+    <div class="container">
+      <div class="row d-flex align-items-center">
+        <div class="col-lg-6 sm-padding">
+          <div class="service-content wow fadeInLeft">
+            <span>Explore The Features</span>
+            <h2>The Rental Experts: Your Trusted Partner for Equipment Success</h2>
+            <p>
+              At Al Zayed, we are a light of excellence in the construction equipment rental business.
+               With a dedication to offering a comprehensive and diversified fleet,
+                we equip your projects with the resources they require to succeed. Our constant commitment to quality,
+                 flexible rental alternatives, and a customer-focused approach distinguishes us.
+                  Whether you're starting on a large-scale building project or need specialized equipment for a specific task,
+               Al Zayed can supply dependable, bespoke solutions that improve your construction experience.
+            </p>
+            <p>
+              Building isn’t just job. It's our passion. With every project we
+              undertake, we set the bar high and provide the best industry.
+            </p>
+            <a href="./service" class="default-btn">Our All Services</a>
+          </div>
+        </div>
+        <div class="col-lg-6 sm-padding">
+          <div class="row services-list">
+            <div class="col-md-6 padding-15">
+              <div
+                class="service-item box-shadow wow fadeInUp"
+                data-wow-delay="100ms"
+              >
+              <i class="fa-solid fa-house"></i>
+                <h3>Customer-Centric Approach</h3>
+                <p>
+                  Your satisfaction is at the core of our service.
+                   From transparent rental terms to efficient delivery and ongoing support.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 padding-15 offset-top">
+              <div
+                class="service-item box-shadow wow fadeInUp"
+                data-wow-delay="300ms"
+              >
+              <i class="fa-solid fa-star"></i>
+                <h3>Quality Assurance</h3>
+                <p>
+                  We prioritize quality, providing state-of-the-art equipment from leading manufacturers.
+                   Our well-maintained fleet ensures reliability and optimal performance on-site.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 padding-15">
+              <div
+                class="service-item box-shadow wow fadeInUp"
+                data-wow-delay="400ms"
+              >
+              <i class="fa-solid fa-bars"></i>
+                <h3>Flexible Rental Options & Tailored Solutions</h3>
+                <p>
+                  Choose the rental duration that fits your project timeline and budget.
+                   We offer flexible options and personalized recommendations.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 padding-15 offset-top">
+              <div
+                class="service-item box-shadow wow fadeInUp"
+                data-wow-delay="500ms"
+              >
+              <i class="fa-solid fa-filter"></i>
+                <h3>Wide Selection & Diverse Brands</h3>
+                <p>
+                  Browse our extensive fleet of heavy and light equipment,
+                   including top brands you trust, for any construction project.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- New Add Section End -->
+
+  <div class="video">
     <div class="container">
       <div class="row">
         <div class="col-lg-4 offset-lg-4">
@@ -297,7 +425,8 @@
             <div class="overlay"></div>
 
             <div class="service-desc">
-              <h4 class="text-center m-3" >Explore With Us</h4>
+              <h4 class="text-center m-3 text-light" >Explore With Us</h4>
+              <hr>
               <p>
                 At <span class="text-warning">Al Zayed</span>, we take pride in being your go-to destination for top-notch construction equipment rentals. With an extensive fleet and a commitment to excellence, we are dedicated to supporting your building projects with the right tools for the job.
                 Explore the advantages of partnering with <span class="text-warning">Al Zayed</span>. From our diverse range of construction equipment to our unwavering focus on customer satisfaction, discover why we stand out as the preferred choice for all your equipment rental needs.
@@ -311,7 +440,71 @@
       </div>
     </div>
   </div>
-
+        <!-- Add 2 -->
+        <section class="about-section padding-sp">
+          <div class="container">
+            <div class="row about-wrap">
+              <div class="col-lg-7 sm-padding">
+                <div class="about-content wow fadeInLeft">
+                  <h2>
+                    Building Success Together: Your Trusted Construction Equipment Partner
+                  </h2>
+                  <p>
+                    Whether you're embarking on a large-scale construction project or need specialized equipment for a specific task,
+                     Al Zayed is here to support you. Let's build a successful future together –
+                      choose <span class="text-warning">Al Zayed Rentals</span> for all your construction equipment rental needs.
+                  </p>
+                  <a href="./about" class="default-btn">More About Us</a>
+                </div>
+              </div>
+              <div class="col-lg-5 sm-padding shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+                <ul class="about-promo">
+                  <li class="about-promo-item">
+                    <i class="fa-solid fa-shield"></i>
+                      <div class="inner-promo">
+                      <h3>Supreme Equipment Selection</h3>
+                      <p>
+                        We are committed to building a sustainable future by
+                        fostering a collaborative spirit.
+                      </p>
+                    </div>
+                  </li>
+                  <li class="about-promo-item wow fadeInUp" data-wow-delay="300ms">
+                    <i class="fa-solid fa-screwdriver-wrench samie-size"></i>
+                    <div class="inner-promo">
+                      <h3>Technical Expertise at Your Fingertips</h3>
+                      <p>
+                        We are committed to building a sustainable future by
+                        fostering a collaborative spirit.
+                      </p>
+                    </div>
+                  </li>
+                  <li class="about-promo-item wow fadeInUp" data-wow-delay="500ms">
+                    <i class="fa-solid fa-truck-fast"></i>
+                      <div class="inner-promo">
+                      <h3>Timely Delivery, Every Time</h3>
+                      <p>
+                        We are committed to building a sustainable future by
+                        fostering a collaborative spirit.
+                      </p>
+                    </div>
+                  </li>
+                  <li class="about-promo-item wow fadeInUp" data-wow-delay="500ms">
+                    <i class="fa-solid fa-bolt samie-size"></i>
+                    <div class="inner-promo">
+                      <h3>Beyond Tools – Committed to Your Success</h3>
+                      <p>
+                        We are committed to building a sustainable future by
+                        fostering a collaborative spirit.
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Add 2 End -->
 
   <div class="section best-deal">
     <div class="container">
@@ -572,15 +765,61 @@
     </div>
   </div>
 
-  <footer>
+  <!-- New Footer -->
+  <section class="widget-section padding">
     <div class="container">
-      <div class="col-lg-12">
-
-        <p class="mb-2"> &copy; 2024 Al Zayed. All Rights Reserved . &mdash; Designed by <a href="#">Rhizome</a> Distributed By <a hreff="#">Rhizome Solutech</a></p>
-
+      <div class="row">
+        <div class="col-lg-3 col-sm-6 sm-padding">
+          <div class="widget-content">
+            <a href="#"><img src="./assets/images/Al_Zayed_logo.png" alt="brand" /></a>
+            <p>
+              Empowering construction excellence,
+               Al Zayed is your trusted partner for premium construction equipment rentals.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-sm-6 sm-padding">
+          <div class="widget-content">
+            <h4>Company</h4>
+            <ul class="widget-links">
+              <li><a href="./about">About Us</a></li>
+              <li><a href="./service">Our Services</a></li>
+              <li><a href="./equipment">Our Equipments</a></li>
+              <li><a href="./contact">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 sm-padding">
+          <div class="widget-content">
+            <h4>Head Office</h4>
+            <p>Alstom Arenco 3
+              Bulding number 3
+              Office number 614, <br>Dubai Investment Park
+              Dubai, UAE</p>
+            <span>+971 58 554 0051</span>
+            <span>nfo@alzayedrentals.com</span>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 sm-padding">
+          <div class="widget-content">
+            <h4>Our Services</h4>
+            <ul class="widget-links">
+              <li><a href="./service">Constructional Equipments</a></li>
+              <li><a href="./service">Welding & Cutting Equipment</a></li>
+              <li><a href="./service">Heavy Deuty Mechinary</a></li>
+              <li><a href="./service">Logistic Operation</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
+  </section>
+  <footer class="footer-section align-center">
+    <div class="container">
+      <p class=""> &copy; 2024 Al Zayed. All Rights Reserved . &mdash; Designed by <a href="#">Rhizome</a> Distributed By <a hreff="#">Rhizome Solutech</a></p>
+    </div>
   </footer>
+  <!-- New Footer End-->
 
   <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->
@@ -590,10 +829,16 @@
   <script src="./assets/js/owl-carousel.js"></script>
   <script src="./assets/js/counter.js"></script>
   <script src="./assets/js/custom.js"></script>
-  <!-- caroseal items -->
+  <!-- Owl-caroseal items -->
   <script src="./assets/js/isotope-caro.min.js"></script>
   <script src="./assets/js/owl-carousel-caro.js"></script>
   <script src="./assets/js/custom-caro.js"></script>
+  <!-- New Add Caroseal -->
+  <script src="./assets/add-js/jquery-1.12.4.min.js"></script>
+  <script src="./assets/add-js/headroom.min.js"></script>
+  <script src="./assets/add-js/slick.min.js"></script>
+  <script src="./assets/add-js/waypoints.min.js"></script>
+  <script src="./assets/add-js/main.js"></script>
 
   </body>
 </html>
