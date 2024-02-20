@@ -2111,7 +2111,7 @@ section.our-courses {
 /*******************************/
 .footer {
   position: relative;
-  margin-top: 45px;
+/*margin-top: 45px;
 /*padding-top: 90px;*/
   background: #34373f; 
 }
