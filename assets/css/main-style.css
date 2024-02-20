@@ -2233,3 +2233,73 @@ section.our-courses {
 .footer-newsletter form input{
   color: #fff !important;
 }
+/* New Section Css (new)*/
+.servicess{
+  background: url(../images/bg-dots.png) 0 0 repeat;
+  
+
+}
+.servicess .service-items:hover .icons img {
+  margin-top: -10px;
+}
+
+.servicess .service-items {
+  margin-top: 80px;
+  position: relative;
+}
+
+.servicess .service-items .icons {
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  text-align: center;
+  line-height: 88px;
+  background-color: #fcb900;
+  border-radius: 50%;
+  position: absolute;
+  right: -10px;
+  top: -46px;
+}
+
+.servicess .service-items .icons img {
+  max-width: 39px;
+  transition: all .2s;
+}
+
+.servicess .service-items .main-contents {
+  border-radius: 25px;
+  padding: 80px 30px 50px 30px;
+  background-color: #f1f0fe;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  transition: all .4s;
+}
+.servicess .service-items .main-contents:hover{
+    box-shadow: 0 8px 16px #f9bd0d !important; /* Increase shadow on hover */
+
+}
+
+.servicess .service-items h4 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: -26px;
+    /* line-height: -30px; */
+    transition: all .4s;
+}
+
+.servicess .service-items p {
+  color: #4a4a4a;
+  margin-bottom: 25px;
+}
+
+.last-icons i{
+  padding: 15px;
+  font-size: 26px;
+  padding-bottom: 0;
+  color: #f9bd0d;
+  margin: 0;
+}
+.last-icons i:hover{
+  color: #797878;
+  transition: all 1s;
+}
