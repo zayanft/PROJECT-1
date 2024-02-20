@@ -1235,11 +1235,18 @@ Contact Style
 */
 
 .contact {
-  background-image: url(../images/contruction-blur.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   padding: 100px 0px 250px 0px;
+  position: relative;
+}
+.last{
+  background-image: url(../images/contruction-blur.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  /* padding: 100px 0px 250px 0px; */
   position: relative;
 }
 
@@ -2303,3 +2310,10 @@ section.our-courses {
   color: #797878;
   transition: all 1s;
 }
+  #map-container{
+    border-radius: 50%;
+    overflow: hidden;
+    width: 400px;
+    height: 400px;
+    margin-bottom: 30px;
+  }
