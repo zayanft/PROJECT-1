@@ -1768,6 +1768,9 @@ body {
     width: 70% !important;
     background-size: cover;
   } */
+  .foot-label{
+    margin-bottom: 40px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -2109,8 +2112,8 @@ section.our-courses {
 .footer {
   position: relative;
   margin-top: 45px;
-  padding-top: 90px;
-  background: #34373f;
+/*padding-top: 90px;*/
+  background: #34373f; 
 }
 
 .footer .footer-contact,
